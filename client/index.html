@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ollama Tester</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Ollama Tester</h1>
+    <form id="testerForm">
+        <label for="model">Select Model:</label>
+        <select id="model" required></select>
+
+        <div id="prompts">
+            <div class="prompt-group">
+                <label for="prompt1">Prompt 1:</label>
+                <textarea id="prompt1" rows="2"></textarea>
+                <button type="button" onclick="runPrompt(1)">Run</button>
+            </div>
+        </div>
+
+        <label for="conversationName">Conversation Name:</label>
+        <input type="text" id="conversationName" size="50" placeholder="Will auto-populate">
+
+        <button type="submit">Save Conversation</button>
+    </form>
+    <div id="results"></div>
+    <script type="module" src="script.mjs"></script>
+</body>
+</html>

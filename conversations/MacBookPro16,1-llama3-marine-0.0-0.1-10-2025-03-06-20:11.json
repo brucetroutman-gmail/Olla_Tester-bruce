@@ -1,0 +1,27 @@
+{
+  "model": "llama3-marine-0.0-0.1-10:latest",
+  "prompts": [
+    {
+      "prompt": "who is tarzan",
+      "response": "Sorry, I can't find that information in the document text.",
+      "metrics": {
+        "load_duration": "20.957997ms",
+        "prompt_eval_count": "157 token(s)",
+        "prompt_eval_duration": "581ms",
+        "prompt_eval_rate": "270.22 tokens/s",
+        "eval_count": "14 token(s)",
+        "eval_duration": "2.306s",
+        "eval_rate": "6.07 tokens/s"
+      }
+    }
+  ],
+  "name": "MacBookPro16,1-llama3-marine-0.0-0.1-10-2025-03-06-20:11",
+  "systemInfo": {
+    "platform": "darwin",
+    "macModel": "MacBookPro16,1",
+    "processor": "Intel(R) Core(TM) i9-9980HK CPU @ 2.40GHz",
+    "memory": "32.00 GB",
+    "macOS": "15.3.1",
+    "graphics": "Chipset Model: Intel UHD Graphics 630"
+  }
+}

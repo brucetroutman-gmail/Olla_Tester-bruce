@@ -1,0 +1,27 @@
+{
+  "model": "llama3-marine-0.0-0.1-10:latest",
+  "prompts": [
+    {
+      "prompt": "what is this about?",
+      "response": "This poem appears to be about a marine's devotion to two loves: his rifle and a romantic partner. The poem explores the idea of how he balances his loyalty between these two loves, with one being a source of protection and security (his rifle) and the other being a source of emotional connection and future plans (the romantic partner).",
+      "metrics": {
+        "load_duration": "23.030702ms",
+        "prompt_eval_count": "158 token(s)",
+        "prompt_eval_duration": "608ms",
+        "prompt_eval_rate": "259.87 tokens/s",
+        "eval_count": "68 token(s)",
+        "eval_duration": "11.967s",
+        "eval_rate": "5.68 tokens/s"
+      }
+    }
+  ],
+  "name": "MacBookPro16,1-llama3-marine-0.0-0.1-10-2025-03-06-16:53",
+  "systemInfo": {
+    "platform": "darwin",
+    "macModel": "MacBookPro16,1",
+    "processor": "Intel(R) Core(TM) i9-9980HK CPU @ 2.40GHz",
+    "memory": "32.00 GB",
+    "macOS": "15.3.1",
+    "graphics": "Chipset Model: Intel UHD Graphics 630"
+  }
+}
